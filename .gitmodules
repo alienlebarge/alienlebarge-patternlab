@@ -1,0 +1,3 @@
+[submodule "source/css/sass/settings.defaults"]
+	path = source/css/sass/settings.defaults
+	url = https://github.com/inuitcss/settings.defaults.git
