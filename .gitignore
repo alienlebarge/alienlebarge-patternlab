@@ -8,3 +8,4 @@ public/*
 config.ini
 latest-change.txt
 *-ck.js
+/npm-debug.log
