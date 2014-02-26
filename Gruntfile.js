@@ -65,7 +65,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-gh-pages');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass', 'shell']);
+  grunt.registerTask('default', ['sass:dev', 'shell']);
 
   // Build the dist an publish it
   grunt.registerTask('dist', ['sass', 'shell', 'gh-pages']);
