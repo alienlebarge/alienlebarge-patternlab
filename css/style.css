@@ -568,6 +568,40 @@ h6,
 }
 
 /*------------------------------------*\
+    #LISTS
+\*------------------------------------*/
+/**
+ * Remove extra vertical spacing when nesting lists.
+ */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/*------------------------------------*\
+    #IMAGES
+\*------------------------------------*/
+/**
+ * 1. Fluid images for responsive purposes.
+ * 2. Offset `alt` text from surrounding copy.
+ */
+img {
+  max-width: 100%;
+  /* [1] */
+  font-style: italic;
+  /* [2] */
+}
+
+/**
+ * If a `width` and/or `height` attribute have been explicitly defined, let’s
+ * not make the image fluid.
+ */
+img[width],
+img[height] {
+  max-width: none;
+}
+
+/*------------------------------------*\
     #OBJECTS
 \*------------------------------------*/
 /*------------------------------------*\
