@@ -13,3 +13,6 @@
 [submodule "source/css/sass/generic.box-sizing"]
 	path = source/css/sass/generic.box-sizing
 	url = https://github.com/inuitcss/generic.box-sizing.git
+[submodule "source/css/sass/generic.reset"]
+	path = source/css/sass/generic.reset
+	url = https://github.com/inuitcss/generic.reset.git
