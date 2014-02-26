@@ -22,3 +22,6 @@
 [submodule "source/css/sass/base.paragraphs"]
 	path = source/css/sass/base.paragraphs
 	url = https://github.com/inuitcss/base.paragraphs.git
+[submodule "source/css/sass/base.page"]
+	path = source/css/sass/base.page
+	url = https://github.com/inuitcss/base.page
