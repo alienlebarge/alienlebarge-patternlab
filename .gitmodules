@@ -4,3 +4,6 @@
 [submodule "source/css/sass/tools.functions"]
 	path = source/css/sass/tools.functions
 	url = https://github.com/inuitcss/tools.functions.git
+[submodule "source/css/sass/tools.mixins"]
+	path = source/css/sass/tools.mixins
+	url = https://github.com/inuitcss/tools.mixins.git
