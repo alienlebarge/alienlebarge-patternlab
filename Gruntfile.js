@@ -36,7 +36,20 @@ module.exports = function(grunt) {
       buildPatternLab: {
         command: 'php core/builder.php -g'
       }
+    },
+
+
+
+
+
+    // Publish the public folder using gh-pages
+    'gh-pages': {
+      options: {
+        base: 'public'
+      },
+      src: ['**']
     }
+
 
 
 
@@ -48,8 +61,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   // Load the plugin that provides the "shell" task.
   grunt.loadNpmTasks('grunt-shell');
+  // Load the plugin that provides the "gh-pages" task.
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   // Default task(s).
   grunt.registerTask('default', ['sass', 'shell']);
+
+  // Build the dist an publish it
+  grunt.registerTask('dist', ['sass', 'shell', 'gh-pages']);
 
 };
