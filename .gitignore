@@ -8,4 +8,12 @@ public/*
 config.ini
 latest-change.txt
 *-ck.js
-/npm-debug.log
+
+# Debug logs
+npm-debug.log
+
+# Ignore sass-cache files.
+*.sass-cache*
+
+# We don't need node module
+/node_modules/

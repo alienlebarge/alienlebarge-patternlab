@@ -1,3 +1,6 @@
+/*------------------------------------*\
+    #STYLES
+\*------------------------------------*/
 // We import types of file in the following order:
 //
 // Settings -- Sass vars, etc.
@@ -15,7 +18,7 @@
 /*------------------------------------*\
     #SETTINGS
 \*------------------------------------*/
-@import "settings.defaults/settings.defaults";
+@import "sass/settings.defaults/settings.defaults";
 
 
 
@@ -24,8 +27,8 @@
 /*------------------------------------*\
     #TOOLS
 \*------------------------------------*/
-@import "tools.functions/tools.functions";
-@import "tools.mixins/tools.mixins";
+@import "sass/tools.functions/tools.functions";
+@import "sass/tools.mixins/tools.mixins";
 
 
 
@@ -34,8 +37,8 @@
 /*------------------------------------*\
     #GENERIC
 \*------------------------------------*/
-@import "generic.reset/generic.reset";
-@import "generic.normalize/generic.normalize";
+@import "sass/generic.normalize/generic.normalize";
+@import "sass/generic.reset/generic.reset";
 
 
 
