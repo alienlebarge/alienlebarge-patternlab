@@ -10,7 +10,8 @@ latest-change.txt
 *-ck.js
 
 # Ignore the CSS
-source/**.css
+source/*.css
+source/*.*.css
 
 # Debug logs
 npm-debug.log
