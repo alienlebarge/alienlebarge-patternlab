@@ -15,5 +15,6 @@ npm-debug.log
 # Ignore sass-cache files.
 *.sass-cache*
 
-# We don't need node module
+# Node and Grunt things
 /node_modules/
+/.grunt/
