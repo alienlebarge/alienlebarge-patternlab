@@ -10,3 +10,6 @@
 [submodule "source/css/sass/generic.normalize"]
 	path = source/css/sass/generic.normalize
 	url = https://github.com/inuitcss/generic.normalize.git
+[submodule "source/css/sass/generic.box-sizing"]
+	path = source/css/sass/generic.box-sizing
+	url = https://github.com/inuitcss/generic.box-sizing.git
