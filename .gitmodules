@@ -28,3 +28,6 @@
 [submodule "source/css/sass/base.headings"]
 	path = source/css/sass/base.headings
 	url = https://github.com/inuitcss/base.headings.git
+[submodule "source/css/sass/base.lists"]
+	path = source/css/sass/base.lists
+	url = https://github.com/inuitcss/base.lists.git
