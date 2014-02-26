@@ -26,7 +26,16 @@ module.exports = function(grunt) {
           'source/css/style.css': 'source/css/style.scss'
         }
       }
+    },
 
+
+
+
+    // Patternlab is build with the terminal
+    shell: {
+      buildPatternLab: {
+        command: 'php core/builder.php -g'
+      }
     }
 
 
@@ -37,8 +46,10 @@ module.exports = function(grunt) {
 
   // Load the plugin that provides the "sass" task.
   grunt.loadNpmTasks('grunt-contrib-sass');
+  // Load the plugin that provides the "shell" task.
+  grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['sass', 'shell']);
 
 };
