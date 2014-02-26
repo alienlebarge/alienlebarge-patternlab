@@ -601,6 +601,10 @@ img[height] {
   max-width: none;
 }
 
+html {
+  font-family: "Gentium Book Basic", serif;
+}
+
 /*------------------------------------*\
     #OBJECTS
 \*------------------------------------*/
