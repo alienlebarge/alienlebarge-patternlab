@@ -19,6 +19,7 @@
     #SETTINGS
 \*------------------------------------*/
 @import "sass/settings.defaults/settings.defaults";
+$base-font-family: 'Gentium Book Basic', serif;
 
 
 
@@ -53,6 +54,10 @@
 @import "sass/base.headings/base.headings";
 @import "sass/base.lists/base.lists";
 @import "sass/base.images/base.images";
+html {
+  font-family: $base-font-family;
+  font-weight: 400;
+}
 
 
 
