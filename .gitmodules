@@ -7,3 +7,6 @@
 [submodule "source/css/sass/tools.mixins"]
 	path = source/css/sass/tools.mixins
 	url = https://github.com/inuitcss/tools.mixins.git
+[submodule "source/css/sass/generic.normalize"]
+	path = source/css/sass/generic.normalize
+	url = https://github.com/inuitcss/generic.normalize.git
