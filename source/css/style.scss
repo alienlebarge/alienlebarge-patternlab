@@ -18,7 +18,7 @@
 /*------------------------------------*\
     #SETTINGS
 \*------------------------------------*/
-@import "sass/settings.defaults/settings.defaults";
+@import "sass/settings.defaults.inuitcss/settings.defaults";
 $base-font-family: 'Gentium Book Basic', serif;
 
 
@@ -28,8 +28,8 @@ $base-font-family: 'Gentium Book Basic', serif;
 /*------------------------------------*\
     #TOOLS
 \*------------------------------------*/
-@import "sass/tools.functions/tools.functions";
-@import "sass/tools.mixins/tools.mixins";
+@import "sass/tools.functions.inuitcss/tools.functions";
+@import "sass/tools.mixins.inuitcss/tools.mixins";
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -56,11 +56,11 @@ $base-font-family: 'Gentium Book Basic', serif;
 /*------------------------------------*\
     #BASE
 \*------------------------------------*/
-@import "sass/base.page/base.page";
-@import "sass/base.paragraphs/base.paragraphs";
-@import "sass/base.headings/base.headings";
-@import "sass/base.lists/base.lists";
-@import "sass/base.images/base.images";
+@import "sass/base.page.inuitcss/base.page";
+@import "sass/base.paragraphs.inuitcss/base.paragraphs";
+@import "sass/base.headings.inuitcss/base.headings";
+@import "sass/base.lists.inuitcss/base.lists";
+@import "sass/base.images.inuitcss/base.images";
 html {
   font-family: $base-font-family;
 }
