@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    
+
 
 
 
@@ -48,6 +48,28 @@ module.exports = function(grunt) {
         base: 'public'
       },
       src: ['**']
+    },
+
+
+
+
+
+    // Generate stylguide
+    styleguide: {
+      dist: {
+        options: {
+          framework: {
+            name: 'styledocco'
+          },
+          name: 'Style Guide',
+          template: {
+            include: ['source/css/style.css']
+          },
+        },
+        files: {
+          'docs': ['source/css/sass/**/*.scss']
+        }
+      }
     }
 
 
@@ -63,6 +85,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
   // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
+  // Load the plugin that provides the "stylguide" task.
+  grunt.loadNpmTasks('grunt-styleguide');
 
   // Default task(s).
   grunt.registerTask('default', ['sass:dev', 'shell']);
