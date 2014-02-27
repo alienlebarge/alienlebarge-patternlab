@@ -51,13 +51,12 @@
     #BASE
 \*------------------------------------*/
 @import "sass/base.page.inuitcss/base.page";
+@import "sass/base.page/base.page";
 @import "sass/base.paragraphs.inuitcss/base.paragraphs";
 @import "sass/base.headings.inuitcss/base.headings";
 @import "sass/base.lists.inuitcss/base.lists";
 @import "sass/base.images.inuitcss/base.images";
-html {
-  font-family: $base-font-family;
-}
+
 
 
 
