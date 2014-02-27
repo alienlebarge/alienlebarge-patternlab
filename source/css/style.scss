@@ -19,7 +19,7 @@
     #SETTINGS
 \*------------------------------------*/
 @import "sass/settings.defaults.inuitcss/settings.defaults";
-$base-font-family: 'Gentium Book Basic', serif;
+@import "sass/settings.defaults/settings.variables";
 
 
 
@@ -30,13 +30,7 @@ $base-font-family: 'Gentium Book Basic', serif;
 \*------------------------------------*/
 @import "sass/tools.functions.inuitcss/tools.functions";
 @import "sass/tools.mixins.inuitcss/tools.mixins";
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-       -o-border-radius: $radius;
-          border-radius: $radius;
-}
+@import "sass/tools.mixins/tools.mixins";
 
 
 
