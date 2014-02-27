@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    $IMAGES SHAPES
+\*------------------------------------*/
+// You need an image with a special shapes ?
+// You are at the right palce.
+
+
+
+
+
+
+/*------------------------------------*\
+    #IMG-CIRCLE
+\*------------------------------------*/
+// the image must be square
+.img-circle {
+  @include border-radius(50%);
+}

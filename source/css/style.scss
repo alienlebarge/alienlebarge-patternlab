@@ -1,5 +1,5 @@
 /*------------------------------------*\
-    #STYLES
+    $STYLES
 \*------------------------------------*/
 // We import types of file in the following order:
 //
@@ -30,6 +30,13 @@ $base-font-family: 'Gentium Book Basic', serif;
 \*------------------------------------*/
 @import "sass/tools.functions/tools.functions";
 @import "sass/tools.mixins/tools.mixins";
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
 
 
 
@@ -70,11 +77,16 @@ html {
 
 
 
+
+/*------------------------------------*\
+    #COMPONMENTS
+\*------------------------------------*/
+@import "sass/componment.images-shapes/componmnent.images-shapes";
+
+
+
+
+
 /*------------------------------------*\
     #TRUMPS
 \*------------------------------------*/
-
-
-
-
-
