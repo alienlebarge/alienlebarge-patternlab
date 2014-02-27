@@ -1,36 +1,36 @@
-[submodule "source/css/sass/settings.defaults"]
-	path = source/css/sass/settings.defaults
+[submodule "source/css/sass/settings.defaults.inuitcss"]
+	path = source/css/sass/settings.defaults.inuitcss
 	url = https://github.com/inuitcss/settings.defaults.git
-[submodule "source/css/sass/tools.functions"]
-	path = source/css/sass/tools.functions
+[submodule "source/css/sass/tools.functions.inuitcss"]
+	path = source/css/sass/tools.functions.inuitcss
 	url = https://github.com/inuitcss/tools.functions.git
-[submodule "source/css/sass/tools.mixins"]
-	path = source/css/sass/tools.mixins
+[submodule "source/css/sass/tools.mixins.inuitcss"]
+	path = source/css/sass/tools.mixins.inuitcss
 	url = https://github.com/inuitcss/tools.mixins.git
-[submodule "source/css/sass/generic.normalize"]
-	path = source/css/sass/generic.normalize
+[submodule "source/css/sass/generic.normalize.inuitcss"]
+	path = source/css/sass/generic.normalize.inuitcss
 	url = https://github.com/inuitcss/generic.normalize.git
-[submodule "source/css/sass/generic.box-sizing"]
-	path = source/css/sass/generic.box-sizing
+[submodule "source/css/sass/generic.box-sizing.inuitcss"]
+	path = source/css/sass/generic.box-sizing.inuitcss
 	url = https://github.com/inuitcss/generic.box-sizing.git
-[submodule "source/css/sass/generic.reset"]
-	path = source/css/sass/generic.reset
+[submodule "source/css/sass/generic.reset.inuitcss"]
+	path = source/css/sass/generic.reset.inuitcss
 	url = https://github.com/inuitcss/generic.reset.git
-[submodule "source/css/sass/generic.shared"]
-	path = source/css/sass/generic.shared
+[submodule "source/css/sass/generic.shared.inuitcss"]
+	path = source/css/sass/generic.shared.inuitcss
 	url = https://github.com/inuitcss/generic.shared.git
-[submodule "source/css/sass/base.paragraphs"]
-	path = source/css/sass/base.paragraphs
+[submodule "source/css/sass/base.paragraphs.inuitcss"]
+	path = source/css/sass/base.paragraphs.inuitcss
 	url = https://github.com/inuitcss/base.paragraphs.git
-[submodule "source/css/sass/base.page"]
-	path = source/css/sass/base.page
+[submodule "source/css/sass/base.page.inuitcss"]
+	path = source/css/sass/base.page.inuitcss
 	url = https://github.com/inuitcss/base.page
-[submodule "source/css/sass/base.headings"]
-	path = source/css/sass/base.headings
+[submodule "source/css/sass/base.headings.inuitcss"]
+	path = source/css/sass/base.headings.inuitcss
 	url = https://github.com/inuitcss/base.headings.git
-[submodule "source/css/sass/base.lists"]
-	path = source/css/sass/base.lists
+[submodule "source/css/sass/base.lists.inuitcss"]
+	path = source/css/sass/base.lists.inuitcss
 	url = https://github.com/inuitcss/base.lists.git
-[submodule "source/css/sass/base.images"]
-	path = source/css/sass/base.images
+[submodule "source/css/sass/base.images.inuitcss"]
+	path = source/css/sass/base.images.inuitcss
 	url = https://github.com/inuitcss/base.images.git
