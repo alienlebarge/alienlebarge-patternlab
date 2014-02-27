@@ -18,7 +18,7 @@
 /*------------------------------------*\
     #SETTINGS
 \*------------------------------------*/
-@import "sass/settings.defaults.inuitcss/settings.defaults";
+@import "sass/settings.defaults.inuitcss/settings.defaults";  // inuitcss
 @import "sass/settings.defaults/settings.variables";
 
 
@@ -28,8 +28,8 @@
 /*------------------------------------*\
     #TOOLS
 \*------------------------------------*/
-@import "sass/tools.functions.inuitcss/tools.functions";
-@import "sass/tools.mixins.inuitcss/tools.mixins";
+@import "sass/tools.functions.inuitcss/tools.functions";  // inuitcss
+@import "sass/tools.mixins.inuitcss/tools.mixins";  // inuitcss
 @import "sass/tools.mixins/tools.mixins";
 
 
@@ -39,9 +39,9 @@
 /*------------------------------------*\
     #GENERIC
 \*------------------------------------*/
-@import "sass/generic.normalize.inuitcss/generic.normalize";
-@import "sass/generic.reset.inuitcss/generic.reset";
-@import "sass/generic.shared.inuitcss/generic.shared";
+@import "sass/generic.normalize.inuitcss/generic.normalize";  // inuitcss
+@import "sass/generic.reset.inuitcss/generic.reset";  // inuitcss
+@import "sass/generic.shared.inuitcss/generic.shared";  // inuitcss
 
 
 
@@ -50,12 +50,12 @@
 /*------------------------------------*\
     #BASE
 \*------------------------------------*/
-@import "sass/base.page.inuitcss/base.page";
+@import "sass/base.page.inuitcss/base.page";  // inuitcss
 @import "sass/base.page/base.page";
-@import "sass/base.paragraphs.inuitcss/base.paragraphs";
-@import "sass/base.headings.inuitcss/base.headings";
-@import "sass/base.lists.inuitcss/base.lists";
-@import "sass/base.images.inuitcss/base.images";
+@import "sass/base.paragraphs.inuitcss/base.paragraphs";  // inuitcss
+@import "sass/base.headings.inuitcss/base.headings";  // inuitcss
+@import "sass/base.lists.inuitcss/base.lists";  // inuitcss
+@import "sass/base.images.inuitcss/base.images";  // inuitcss
 
 
 
