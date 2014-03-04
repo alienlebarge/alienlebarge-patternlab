@@ -1,4 +1,9 @@
 $base-font-family: 'Gentium Book Basic', Georgia, serif;
 
-$inuit-base-background-color: #fff;
-$inuit-base-text-color: #000;
+$base-text-color: #000;
+$base-primary-color: #ff0000;
+$base-background-color: #fff;
+
+// overwrite inuitcss vars
+$inuit-base-background-color: $base-background-color;
+$inuit-base-text-color: $base-text-color;
