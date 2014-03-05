@@ -1,22 +1,13 @@
-// IMAGES SHAPES
+// Image shapes
 // 
 // You need an image with a special shapes ?
 // You are at the right palce.
 // 
-// Styleguide 4.1.
-
-
-
-
-
-
-// Image circle
+// Markup: <img class="{$modifiers}" src="http://placekitten.com/g/200/200">
+//
+// .img-circle - Image in a circle
 // 
-// The image must be square to have a nice circle.
-// 
-// Markup: <img class="img-circle" src="http://placekitten.com/g/200/200" alt="Avatar" />
-// 
-// Styleguide 4.1.1.
+// Styleguide 4.1
 .img-circle {
   @include border-radius(50%);
 }
