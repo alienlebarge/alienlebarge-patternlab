@@ -37,3 +37,6 @@
 [submodule "source/css/sass/trumps.widths.inuitcss"]
 	path = source/css/sass/trumps.widths.inuitcss
 	url = https://github.com/inuitcss/trumps.widths.git
+[submodule "source/css/sass/settings.defaults.inuitcss"]
+	path = source/css/sass/settings.defaults.inuitcss
+	url = https://github.com/inuitcss/settings.defaults.git
