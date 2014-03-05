@@ -1,3 +1,10 @@
+// Mixin border-radius
+// 
+// Add prefix vendor for border-radius
+// 
+// $radius - The radius for each corner
+// 
+// No styleguide reference.
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;

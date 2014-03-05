@@ -1,18 +1,22 @@
-/*------------------------------------*\
-    $IMAGES SHAPES
-\*------------------------------------*/
+// IMAGES SHAPES
+// 
 // You need an image with a special shapes ?
 // You are at the right palce.
+// 
+// Styleguide 4.1.
 
 
 
 
 
 
-/*------------------------------------*\
-    #IMG-CIRCLE
-\*------------------------------------*/
-// the image must be square
+// Image circle
+// 
+// The image must be square to have a nice circle.
+// 
+// Markup: <img class="img-circle" src="http://placekitten.com/g/200/200" alt="Avatar" />
+// 
+// Styleguide 4.1.1.
 .img-circle {
   @include border-radius(50%);
 }
