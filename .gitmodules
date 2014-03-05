@@ -1,6 +1,3 @@
-[submodule "source/css/sass/settings.defaults.inuitcss"]
-	path = source/css/sass/settings.defaults.inuitcss
-	url = https://github.com/inuitcss/settings.defaults.git
 [submodule "source/css/sass/tools.functions.inuitcss"]
 	path = source/css/sass/tools.functions.inuitcss
 	url = https://github.com/inuitcss/tools.functions.git
