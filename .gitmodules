@@ -34,3 +34,9 @@
 [submodule "source/css/sass/base.images.inuitcss"]
 	path = source/css/sass/base.images.inuitcss
 	url = https://github.com/inuitcss/base.images.git
+[submodule "source/css/sass/objects.layout.inuitcss"]
+	path = source/css/sass/objects.layout.inuitcss
+	url = https://github.com/inuitcss/objects.layout.git
+[submodule "source/css/sass/trumps.widths.inuitcss"]
+	path = source/css/sass/trumps.widths.inuitcss
+	url = https://github.com/inuitcss/trumps.widths.git
