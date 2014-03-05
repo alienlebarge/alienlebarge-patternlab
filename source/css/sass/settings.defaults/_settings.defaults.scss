@@ -13,10 +13,26 @@
 // Everythings about the fonts
 // 
 // No styleguide reference.
-$base-font-family:  'Playfair Display', Georgia, serif;
-$base-font-size:    17px;
-$base-line-height:  26px;
+$base-font-family: 'Playfair Display', Georgia, serif;
+$base-font-size:   17px;
+$base-line-height: 26px;
 
+$inuit-base-font-size:   $base-font-size;
+$inuit-base-line-height: $base-line-height;
+
+$heading-size-1: 64px;
+$heading-size-2: 40px;
+$heading-size-3: 30px;
+$heading-size-4: 22px;
+$heading-size-5: 16px;
+$heading-size-6: 14px;
+
+$inuit-heading-size-1: $heading-size-1;
+$inuit-heading-size-2: $heading-size-2;
+$inuit-heading-size-3: $heading-size-3;
+$inuit-heading-size-4: $heading-size-4;
+$inuit-heading-size-5: $heading-size-5;
+$inuit-heading-size-6: $heading-size-6;
 
 
 
@@ -31,15 +47,5 @@ $base-text-color:       #333;
 $base-primary-color:    #ff0000;
 $base-background-color: #fff;
 
-
-
-
-
-
-// Overwrite inuitcss vars
-//
-// No styleguide reference.
-$inuit-base-background-color:   $base-background-color;
 $inuit-base-text-color:         $base-text-color;
-$inuit-base-font-size:          $base-font-size;
-$inuit-base-line-height:        $base-line-height;
+$inuit-base-background-color:   $base-background-color;
