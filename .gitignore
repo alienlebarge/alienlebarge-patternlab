@@ -21,4 +21,6 @@ npm-debug.log
 # Node and Grunt things
 /node_modules/
 /.grunt/
-/docs/
+
+# Styleguide folder
+/styleguide/

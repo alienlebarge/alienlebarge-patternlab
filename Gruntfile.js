@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         command: 'php core/builder.php -g'
       },
       buildStyleguide: {
-        command: '$ kss-node source/css styleguide --css source/css/style.css'
+        command: 'kss-node source/css styleguide --css source/css/style.css'
       }
     },
 
