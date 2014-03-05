@@ -3,7 +3,6 @@
 // Let's set the main variables
 // 
 // No styleguide reference.
-// 
 
 
 
@@ -14,7 +13,9 @@
 // Everythings about the fonts
 // 
 // No styleguide reference.
-$base-font-family: 'Gentium Book Basic', Georgia, serif;
+$base-font-family:  'Playfair Display', Georgia, serif;
+$base-font-size:    17px;
+$base-line-height:  26px;
 
 
 
@@ -26,8 +27,8 @@ $base-font-family: 'Gentium Book Basic', Georgia, serif;
 // It's all about the colors
 // 
 // No styleguide reference.
-$base-text-color: #000;
-$base-primary-color: #ff0000;
+$base-text-color:       #333;
+$base-primary-color:    #ff0000;
 $base-background-color: #fff;
 
 
@@ -38,5 +39,7 @@ $base-background-color: #fff;
 // Overwrite inuitcss vars
 //
 // No styleguide reference.
-$inuit-base-background-color: $base-background-color;
-$inuit-base-text-color: $base-text-color;
+$inuit-base-background-color:   $base-background-color;
+$inuit-base-text-color:         $base-text-color;
+$inuit-base-font-size:          $base-font-size;
+$inuit-base-line-height:        $base-line-height;
