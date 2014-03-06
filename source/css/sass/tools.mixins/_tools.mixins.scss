@@ -77,6 +77,8 @@
 
 // Mixin box-sizing
 //
+// Box-sizing will change the box-model of the element it is applied to.
+//
 // No styleguide reference.
 @mixin box-sizing {
   -webkit-box-sizing: border-box;
