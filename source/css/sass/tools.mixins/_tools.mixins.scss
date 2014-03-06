@@ -1,9 +1,9 @@
 // Mixin border-radius
-// 
+//
 // Add prefix vendor for border-radius
-// 
+//
 // $radius - The radius for each corner
-// 
+//
 // No styleguide reference.
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -11,4 +11,24 @@
       -ms-border-radius: $radius;
        -o-border-radius: $radius;
           border-radius: $radius;
+}
+
+
+
+
+
+// Mixin shadow
+//
+// A mixin for creating drop shadows
+//
+// $x     - Vertical position of the shadow
+// $y     - Horizontal position of the shadow
+// $blur  - Amount of blur
+// $color - The color
+//
+// No styleguide reference.
+ @mixin shadow($x, $y, $blur, $color) {
+  -webkit-box-shadow: $x $y $blur $color;
+     -moz-box-shadow: $x $y $blur $color;
+          box-shadow: $x $y $blur $color;
 }
