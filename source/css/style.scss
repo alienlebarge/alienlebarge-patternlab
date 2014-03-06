@@ -8,15 +8,15 @@
 
 
 // Settings
-// 
+//
 // Sass vars, etc.
-// 
+//
 // No styleguide reference.
 
 // InuitCSS settings.defaults
-// 
+//
 // Information about this inuitcss module https://github.com/inuitcss/settings.defaults
-// 
+//
 // No styleguide reference.
 @import "sass/settings.defaults.inuitcss/settings.defaults";
 
@@ -28,9 +28,9 @@
 
 
 // Tools
-// 
+//
 // Functions and mixins.
-// 
+//
 // No styleguide reference.
 @import "sass/tools.functions.inuitcss/tools.functions";  // inuitcss
 @import "sass/tools.mixins.inuitcss/tools.mixins";  // inuitcss
@@ -54,15 +54,15 @@
 
 
 // Base
-// 
+//
 // Unclasses HTML elements (e.g. `h2`, `ul`).
-// 
+//
 // Styleguide 2.
 
 // InuitCSS Base page
-// 
+//
 // Information about this inuitcss module https://github.com/inuitcss/base.page
-// 
+//
 // Styleguide 2.1
 @import "sass/base.page.inuitcss/base.page";
 
@@ -75,14 +75,14 @@
 // InuitCSS base paragraphs
 //
 // Information about this inuitcss module https://github.com/inuitcss/base.paragraphs
-// 
+//
 // Styleguide 2.4
 @import "sass/base.paragraphs.inuitcss/base.paragraphs";
 
 // InuitCSS base headings
 //
 // Information about this inuitcss module https://github.com/inuitcss/base.headings
-// 
+//
 // Styleguide 2.5
 @import "sass/base.headings.inuitcss/base.headings";
 
@@ -92,14 +92,14 @@
 // InuitCSS base.lists
 //
 // Information about this inuitcss module https://github.com/inuitcss/base.lists
-// 
+//
 // Styleguide 2.7
 @import "sass/base.lists.inuitcss/base.lists";
 
 // InuitCSS base.images
 //
 // Information about this inuitcss module https://github.com/inuitcss/base.images
-// 
+//
 // Styleguide 2.8
 @import "sass/base.images.inuitcss/base.images";
 
@@ -109,26 +109,26 @@
 
 
 // Objects
-// 
+//
 // Objects and abstractions.
-// 
+//
 // Styleguide 3.
 
 // InuitCSS objects.layout
 //
 // Information about this inuitcss module https://github.com/inuitcss/objects.layout
-// 
+//
 // Styleguide 3.1
-@import "sass/objects.layout.inuitcss/objects.layout"; 
+@import "sass/objects.layout.inuitcss/objects.layout";
 
 
 
 
 
 // Componment
-// 
+//
 // Your designed UI elements (inuitcss includes none of these).
-// 
+//
 // Styleguide 4.
 
 // Image shapes
@@ -139,14 +139,14 @@
 
 
 // Trumps
-// 
+//
 // Overrides and helper classes.
-// 
+//
 // Styleguide 5.
 
 // InuitCSS trumps.widths
 //
 // Information about this inuitcss module https://github.com/inuitcss/trumps.widths
-// 
+//
 // Styleguide 5.1
 @import "sass/trumps.widths.inuitcss/trumps.widths";
