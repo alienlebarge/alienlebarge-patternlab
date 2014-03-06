@@ -37,7 +37,10 @@ module.exports = function(grunt) {
         command: 'php core/builder.php -g'
       },
       buildStyleguide: {
-        command: 'kss-node source/css styleguide --css source/css/style.css'
+        // The following command need `https://github.com/1026/kss-node-template-such-as-github` template in `~/Documents/Developpement/`
+        command: 'kss-node source/css styleguide --css source/css/style.css --template ~/Documents/Developpement/kss-node-template-such-as-github/template'
+        // Default template
+        //command: 'kss-node source/css styleguide --css source/css/style.css'
       }
     },
 
