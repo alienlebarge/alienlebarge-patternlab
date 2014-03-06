@@ -9,5 +9,5 @@
 //
 // Styleguide 4.1
 .img-circle {
-  @include border-radius(50%);
+  @include rounded(50%);
 }
