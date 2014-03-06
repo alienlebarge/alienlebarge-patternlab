@@ -570,13 +570,6 @@ h6,
   line-height: 1.85714;
 }
 
-h1,
-.alpha,
-h2,
-.beta {
-  font-weight: 400;
-}
-
 /*------------------------------------*\
     #LISTS
 \*------------------------------------*/
@@ -652,6 +645,10 @@ img[height] {
   /* [5] */
   box-sizing: border-box;
   /* [5] */
+}
+
+.font-weight-normal {
+  font-weight: 400;
 }
 
 .img-circle {
