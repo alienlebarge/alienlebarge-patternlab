@@ -114,3 +114,18 @@
   /* W3C */
   background-image:         linear-gradient($from, $to);
 }
+
+
+
+
+
+// Mixin center block
+//
+// Set an element to `display: block` and center via margin.
+//
+// No styleguide reference.
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
