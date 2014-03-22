@@ -54,8 +54,23 @@ module.exports = function(grunt) {
         base: 'public'
       },
       src: ['**']
-    }
+    },
 
+
+
+
+
+
+    // Watch things and do things when it happens.
+    watch: {
+      scripts: {
+        files: ['source/**/*.*'],
+        tasks: ['sass:dev', 'shell'],
+        options: {
+          spawn: false,
+        },
+      },
+    }
 
 
 
@@ -67,6 +82,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   // Load the plugin that provides the "shell" task.
   grunt.loadNpmTasks('grunt-shell');
+  // Load the plugin that provides the "watch" task.
+  grunt.loadNpmTasks('grunt-contrib-watch');
   // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
 
