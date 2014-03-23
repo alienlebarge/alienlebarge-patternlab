@@ -40,3 +40,6 @@
 [submodule "source/css/sass/settings.defaults.inuitcss"]
 	path = source/css/sass/settings.defaults.inuitcss
 	url = https://github.com/inuitcss/settings.defaults.git
+[submodule "source/css/sass/trumps.spacing.inuitcss"]
+	path = source/css/sass/trumps.spacing.inuitcss
+	url = https://github.com/inuitcss/trumps.spacing.git
