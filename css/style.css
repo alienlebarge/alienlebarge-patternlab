@@ -491,7 +491,7 @@ html {
 }
 
 html {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Alegreya", Georgia, serif;
 }
 
 a {
@@ -645,6 +645,38 @@ img[height] {
   /* [5] */
   box-sizing: border-box;
   /* [5] */
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sr-only {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-weight-normal {
