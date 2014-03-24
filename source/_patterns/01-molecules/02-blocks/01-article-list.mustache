@@ -1,9 +1,7 @@
-<ul class="layout">
-  <li class="layout__item layout">
-    <time datetime="{{ year.long }}-{{ month.digit }}-{{ day.long }}" class="layout__item 1/4">{{ year.long }}-{{ month.digit }}-{{ day.long }}</time><!--
-
-  --><a href="{{ post.url }}" class="layout__item 3/4">{{ headline.short }}</a>
-  </li><!--
-
-  -->
-<ul>
+<section>
+{{> molecules-article-list-item }}
+{{> molecules-article-list-item }}
+{{> molecules-article-list-item }}
+{{> molecules-article-list-item }}
+{{> molecules-article-list-item }}
+</section>
