@@ -1,0 +1,21 @@
+// Structure
+//
+// Main wrapper and container
+//
+// Styleguide 4.1
+
+
+
+
+
+// Container
+//
+// Container is the main ... container
+//
+// Markup: <div class="container">...</div>
+//
+// Styleguide 4.1.1
+.container {
+  max-width: 540px;
+  @include center-block;
+}
