@@ -1,7 +1,7 @@
 {
 	"title" : "Pattern Lab",
-	"htmlClass": "pl",
-	"bodyClass": "body",
+	"htmlClass": "",
+	"bodyClass": "",
 	"img": {
 		"landscape-4x3": {
 			"src": "http://placekitten.com/g/1920/1440",
