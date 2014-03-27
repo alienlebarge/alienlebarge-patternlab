@@ -451,7 +451,7 @@ table,
 fieldset, figure,
 pre {
   margin-bottom: 24px;
-  margin-bottom: 1.41176rem;
+  margin-bottom: 1.2rem;
 }
 
 /**
@@ -460,7 +460,7 @@ pre {
  */
 ul, ol, dd {
   margin-left: 48px;
-  margin-left: 2.82353rem;
+  margin-left: 2.4rem;
 }
 
 /*------------------------------------*\
@@ -478,9 +478,9 @@ ul, ol, dd {
  * 3. Ensure the page always fills at least the entire height of the viewport.
  */
 html {
-  font-size: 1.0625em;
+  font-size: 1.25em;
   /* [1] */
-  line-height: 1.52941;
+  line-height: 1.4;
   /* [1] */
   background-color: white;
   color: #333333;
@@ -491,7 +491,7 @@ html {
 }
 
 html {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Alegreya", Georgia, serif;
 }
 
 a {
@@ -516,9 +516,9 @@ a:hover {
  * of a document slightly larger: en.wikipedia.org/wiki/Lede_(news)
  */
 .lede {
-  font-size: 19.125px;
+  font-size: 22.5px;
   font-size: 1.125rem;
-  line-height: 1.35948;
+  line-height: 1.24444;
 }
 
 /*------------------------------------*\
@@ -531,50 +531,43 @@ a:hover {
 h1,
 .alpha {
   font-size: 64px;
-  font-size: 3.76471rem;
-  line-height: 1.21875;
+  font-size: 3.2rem;
+  line-height: 1.3125;
 }
 
 h2,
 .beta {
   font-size: 40px;
-  font-size: 2.35294rem;
-  line-height: 1.3;
+  font-size: 2rem;
+  line-height: 1.4;
 }
 
 h3,
 .gamma {
   font-size: 30px;
-  font-size: 1.76471rem;
-  line-height: 1.73333;
+  font-size: 1.5rem;
+  line-height: 1.86667;
 }
 
 h4,
 .delta {
   font-size: 22px;
-  font-size: 1.29412rem;
-  line-height: 1.18182;
+  font-size: 1.1rem;
+  line-height: 1.27273;
 }
 
 h5,
 .epsilon {
   font-size: 16px;
-  font-size: 0.94118rem;
-  line-height: 1.625;
+  font-size: 0.8rem;
+  line-height: 1.75;
 }
 
 h6,
 .zeta {
   font-size: 14px;
-  font-size: 0.82353rem;
-  line-height: 1.85714;
-}
-
-h1,
-.alpha,
-h2,
-.beta {
-  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 2;
 }
 
 /*------------------------------------*\
@@ -609,6 +602,11 @@ img {
 img[width],
 img[height] {
   max-width: none;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0 24px;
 }
 
 /*------------------------------------*\
@@ -652,6 +650,49 @@ img[height] {
   /* [5] */
   box-sizing: border-box;
   /* [5] */
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sr-only {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.container {
+  max-width: 540px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font-weight-normal {
+  font-weight: 400;
 }
 
 .img-circle {
@@ -833,4 +874,83 @@ img[height] {
 
 [class~="11/12"] {
   width: 91.6666666% !important;
+}
+
+/*------------------------------------*\
+    #SPACING
+\*------------------------------------*/
+/**
+ * Margin and padding helper classes. Use these to tweak layout on a micro
+ * level.
+ *
+ * `.(m|p)(t|r|b|l|e|s)(-|+|0) {}` = margin/padding top/right/bottom/left/ends/sides less/more/none
+ */
+/**
+ * Margin helper classes.
+ *
+ * Add margins.
+ */
+.m {
+  margin: 24px !important;
+}
+
+.mt {
+  margin-top: 24px !important;
+}
+
+.mr {
+  margin-right: 24px !important;
+}
+
+.mb {
+  margin-bottom: 24px !important;
+}
+
+.ml {
+  margin-left: 24px !important;
+}
+
+.me {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+.ms {
+  margin-right: 24px !important;
+  margin-left: 24px !important;
+}
+
+/**
+ * Padding helper classes.
+ *
+ * Add paddings.
+ */
+.p {
+  padding: 24px !important;
+}
+
+.pt {
+  padding-top: 24px !important;
+}
+
+.pr {
+  padding-right: 24px !important;
+}
+
+.pb {
+  padding-bottom: 24px !important;
+}
+
+.pl {
+  padding-left: 24px !important;
+}
+
+.pe {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+
+.ps {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
 }
