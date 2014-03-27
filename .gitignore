@@ -5,7 +5,6 @@ public/*
 !public/styleguide/*
 !public/patterns/**/*
 !public/data/*.js
-config.ini
 latest-change.txt
 *-ck.js
 
