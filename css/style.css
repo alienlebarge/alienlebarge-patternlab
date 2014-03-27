@@ -491,7 +491,7 @@ html {
 }
 
 html {
-  font-family: "Alegreya", Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
 }
 
 a {
@@ -570,6 +570,13 @@ h6,
   line-height: 1.85714;
 }
 
+h1,
+.alpha,
+h2,
+.beta {
+  font-weight: 400;
+}
+
 /*------------------------------------*\
     #LISTS
 \*------------------------------------*/
@@ -645,42 +652,6 @@ img[height] {
   /* [5] */
   box-sizing: border-box;
   /* [5] */
-}
-
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sr-only {
-  position: absolute !important;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.font-weight-normal {
-  font-weight: 400;
 }
 
 .img-circle {
@@ -862,83 +833,4 @@ img[height] {
 
 [class~="11/12"] {
   width: 91.6666666% !important;
-}
-
-/*------------------------------------*\
-    #SPACING
-\*------------------------------------*/
-/**
- * Margin and padding helper classes. Use these to tweak layout on a micro
- * level.
- *
- * `.(m|p)(t|r|b|l|e|s)(-|+|0) {}` = margin/padding top/right/bottom/left/ends/sides less/more/none
- */
-/**
- * Margin helper classes.
- *
- * Add margins.
- */
-.m {
-  margin: 24px !important;
-}
-
-.mt {
-  margin-top: 24px !important;
-}
-
-.mr {
-  margin-right: 24px !important;
-}
-
-.mb {
-  margin-bottom: 24px !important;
-}
-
-.ml {
-  margin-left: 24px !important;
-}
-
-.me {
-  margin-top: 24px !important;
-  margin-bottom: 24px !important;
-}
-
-.ms {
-  margin-right: 24px !important;
-  margin-left: 24px !important;
-}
-
-/**
- * Padding helper classes.
- *
- * Add paddings.
- */
-.p {
-  padding: 24px !important;
-}
-
-.pt {
-  padding-top: 24px !important;
-}
-
-.pr {
-  padding-right: 24px !important;
-}
-
-.pb {
-  padding-bottom: 24px !important;
-}
-
-.pl {
-  padding-left: 24px !important;
-}
-
-.pe {
-  padding-top: 24px !important;
-  padding-bottom: 24px !important;
-}
-
-.ps {
-  padding-right: 24px !important;
-  padding-left: 24px !important;
 }
