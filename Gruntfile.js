@@ -78,9 +78,10 @@ module.exports = function(grunt) {
     copy: {
       stylesheets: {
         expand: true,
-        src: ['source/css/**'],
-        dest: '../alienlebargegithub/stylesheets/',
-      },
+        cwd: 'source/css/',
+        src: ['**'],
+        dest: '../alienlebargegithub/stylesheets/'
+      }
     }
 
 
