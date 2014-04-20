@@ -70,6 +70,17 @@ module.exports = function(grunt) {
           spawn: false,
         },
       },
+    },
+
+
+
+
+    copy: {
+      stylesheets: {
+        expand: true,
+        src: ['source/css/**'],
+        dest: '../alienlebargegithub/stylesheets/',
+      },
     }
 
 
@@ -86,11 +97,16 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
+  // Load the plugin that provides the "grunt-contrib-copy" task.
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
   grunt.registerTask('default', ['sass', 'shell']);
 
   // Build the dist an publish it
   grunt.registerTask('dist', ['sass', 'shell', 'gh-pages']);
+
+  // Transfer to jekyll
+  grunt.registerTask('jekyll', ['sass', 'copy']);
 
 };
