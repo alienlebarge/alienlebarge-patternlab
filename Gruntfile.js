@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    jekyllFolder: '../alienlebargegithub/'
+    jekyllFolder: '../alienlebargegithub/',
 
 
 
@@ -94,8 +94,8 @@ module.exports = function(grunt) {
       stylesheets: {
         expand: true,
         cwd: 'source/css/',
-        src: ['**'],
-        dest: '<%= jekyllFolder %>sstylesheets/'
+        src: ['*.css', 'README.md'],
+        dest: '<%= jekyllFolder %>stylesheets/'
       }
     }
 
