@@ -570,6 +570,22 @@ h6,
   line-height: 2;
 }
 
+@media screen and (max-width: 320px) {
+  h1.text-responsive {
+    font-size: 32px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h2.text-responsive {
+    font-size: 28px;
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+}
+
 /*------------------------------------*\
     #LISTS
 \*------------------------------------*/
@@ -921,6 +937,39 @@ blockquote {
 }
 
 /**
+ * Add large margins.
+ */
+.m\+ {
+  margin: 48px !important;
+}
+
+.mt\+ {
+  margin-top: 48px !important;
+}
+
+.mr\+ {
+  margin-right: 48px !important;
+}
+
+.mb\+ {
+  margin-bottom: 48px !important;
+}
+
+.ml\+ {
+  margin-left: 48px !important;
+}
+
+.me\+ {
+  margin-top: 48px !important;
+  margin-bottom: 48px !important;
+}
+
+.ms\+ {
+  margin-right: 48px !important;
+  margin-left: 48px !important;
+}
+
+/**
  * Padding helper classes.
  *
  * Add paddings.
@@ -953,4 +1002,37 @@ blockquote {
 .ps {
   padding-right: 24px !important;
   padding-left: 24px !important;
+}
+
+/**
+ * Add large paddings.
+ */
+.p\+ {
+  padding: 48px !important;
+}
+
+.pt\+ {
+  padding-top: 48px !important;
+}
+
+.pr\+ {
+  padding-right: 48px !important;
+}
+
+.pb\+ {
+  padding-bottom: 48px !important;
+}
+
+.pl\+ {
+  padding-left: 48px !important;
+}
+
+.pe\+ {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+.ps\+ {
+  padding-right: 48px !important;
+  padding-left: 48px !important;
 }
