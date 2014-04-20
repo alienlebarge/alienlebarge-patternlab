@@ -75,6 +75,20 @@ module.exports = function(grunt) {
 
 
 
+
+    clean: {
+      jekyllStylesheets : {
+        options: {
+          force: true
+        },
+        src: ["../alienlebargegithub/stylesheets/"]
+      }
+    },
+
+
+
+
+
     copy: {
       stylesheets: {
         expand: true,
@@ -98,6 +112,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
+  // Load the plugin that provides the "grunt-contrib-clean" task.
+  grunt.loadNpmTasks('grunt-contrib-clean');
   // Load the plugin that provides the "grunt-contrib-copy" task.
   grunt.loadNpmTasks('grunt-contrib-copy');
 
@@ -108,6 +124,6 @@ module.exports = function(grunt) {
   grunt.registerTask('dist', ['sass', 'shell', 'gh-pages']);
 
   // Transfer to jekyll
-  grunt.registerTask('jekyll', ['sass', 'copy']);
+  grunt.registerTask('jekyll', ['sass', 'clean:jekyllStylesheets', 'copy']);
 
 };
