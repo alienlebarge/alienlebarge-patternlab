@@ -620,6 +620,17 @@ img[height] {
   max-width: none;
 }
 
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption {
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.75;
+}
+
 blockquote {
   font-style: italic;
   margin: 0 24px;
