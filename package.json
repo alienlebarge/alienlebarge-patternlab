@@ -1,12 +1,15 @@
 {
   "name": "alb-patternlab",
   "version": "0.0.1",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/alienlebarge/alienlebarge-patternlab"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-sass": "~0.7.2",
     "grunt-shell": "~0.6.4",
     "grunt-gh-pages": "~0.9.1",
-    "grunt-styleguide": "~0.2.15",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-clean": "~0.5.0"
