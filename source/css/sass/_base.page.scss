@@ -21,3 +21,18 @@ html {
     overflow-y: scroll; /* [2] */
     min-height: 100%; /* [3] */
 }
+
+
+
+
+
+// HTML
+//
+// Set the font family who is not covered by inuitcss
+//
+// Markup: <html>
+//
+// Styleguide 2.2.1.
+html {
+  font-family: $base-font-family;
+}
