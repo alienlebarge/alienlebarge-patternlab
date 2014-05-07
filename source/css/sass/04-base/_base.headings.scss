@@ -1,0 +1,74 @@
+// # Headings
+//
+// Headings 1–6, with corresponding Greek-alphabet abstract classes for double-
+// stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+//
+//    <h1>Heading 1</h1>
+//    <h2>Heading 2</h2>
+//    <h3>Heading 3</h3>
+//    <h4>Heading 4</h4>
+//    <h5>Heading 5</h5>
+//    <h6>Heading 6</h6>
+//
+//    <p class="alpha">Paragraph alpha</p>
+//    <p class="beta">Paragraph beta</p>
+//    <p class="gamma">Paragraph gamma</p>
+//    <p class="delta">Paragraph delta</p>
+//    <p class="epsilon">Paragraph epsilon</p>
+//    <p class="zeta">Paragraph zeta</p>
+h1,
+.#{$inuit-namespace}alpha,
+%#{$inuit-namespace}alpha {
+    @include inuit-font-size($inuit-heading-size-1);
+}
+
+h2,
+.#{$inuit-namespace}beta,
+%#{$inuit-namespace}beta {
+    @include inuit-font-size($inuit-heading-size-2);
+}
+
+h3,
+.#{$inuit-namespace}gamma,
+%#{$inuit-namespace}gamma {
+    @include inuit-font-size($inuit-heading-size-3);
+}
+
+h4,
+.#{$inuit-namespace}delta,
+%#{$inuit-namespace}delta {
+    @include inuit-font-size($inuit-heading-size-4);
+}
+
+h5,
+.#{$inuit-namespace}epsilon,
+%#{$inuit-namespace}epsilon {
+    @include inuit-font-size($inuit-heading-size-5);
+}
+
+h6,
+.#{$inuit-namespace}zeta,
+%#{$inuit-namespace}zeta {
+    @include inuit-font-size($inuit-heading-size-6);
+}
+
+
+
+
+
+// # Responsive Headings
+//
+// `<h1>` and </h2> can be responsive
+//
+//     <h1 class="text-responsive">This is a responsive heading</h1>
+//     <h2 class="text-responsive">This is a responsive heading</h2>
+h1.text-responsive {
+  @media screen and (max-width: $base-break-small) {
+    @include inuit-font-size($heading-size-1*0.5, true);
+  }
+}
+h2.text-responsive {
+  @media screen and (max-width: $base-break-small) {
+    @include inuit-font-size($heading-size-2*0.7, true);
+  }
+}
