@@ -36,16 +36,29 @@ module.exports = function(grunt) {
     shell: {
       buildPatternLab: {
         command: 'php core/builder.php -g'
-      },
-      buildStyleguide: {
-        // The following command need `https://github.com/1026/kss-node-template-such-as-github` template in `~/Documents/Developpement/`
-        command: 'kss-node source/css styleguide --css source/css/style.css --template ~/Documents/Developpement/kss-node-template-such-as-github/template'
-        // Default template
-        //command: 'kss-node source/css styleguide --css source/css/style.css'
       }
     },
 
 
+
+
+
+    // Styleguide
+    styleguide: {
+
+      dist: {
+          options: {
+              // task options
+              template: {
+                include: ['source/css/style.css']
+              }
+          },
+          files: {
+              'styleguide': 'source/css/style.scss'
+          }
+      }
+
+    },
 
 
 
@@ -109,6 +122,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   // Load the plugin that provides the "shell" task.
   grunt.loadNpmTasks('grunt-shell');
+  // Load the plugin that provides the "stylguide" task.
+  grunt.loadNpmTasks('grunt-styleguide');
   // Load the plugin that provides the "watch" task.
   grunt.loadNpmTasks('grunt-contrib-watch');
   // Load the plugin that provides the "gh-pages" task.
