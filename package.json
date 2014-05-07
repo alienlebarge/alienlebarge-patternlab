@@ -5,7 +5,7 @@
     "type" : "git",
     "url" : "https://github.com/alienlebarge/alienlebarge-patternlab.git"
   },
-  "bugs": "url": "https://github.com/alienlebarge/alienlebarge-patternlab/issues",
+  "bugs": "https://github.com/alienlebarge/alienlebarge-patternlab/issues",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-sass": "~0.7.2",
