@@ -1,14 +1,13 @@
-/*------------------------------------*\
-    #LAYOUT
-\*------------------------------------*/
+// # Layout
+//
+// The inuitcss layout system uses `box-sizing: border-box;` and
+// `display: inline-block;` to create an extremely powerful, flexible
+// alternative to the traditional grid system. Combine the layout items with
+// the widths found in `trumps.widths`.
 
-/**
- * The inuitcss layout system uses `box-sizing: border-box;` and
- * `display: inline-block;` to create an extremely powerful, flexible
- * alternative to the traditional grid system. Combine the layout items with
- * the widths found in `trumps.widths`.
- */
 
+// # Variables
+//
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-layout-gutter:           $inuit-base-spacing-unit !default;
 $inuit-layout-gutter--small:    halve($inuit-layout-gutter) !default;
@@ -36,9 +35,9 @@ $inuit-global-border-box: false !default;
 
 
 
-/**
- * Begin a layout group.
- */
+// # Layout group
+//
+// Begin a layout group.
 .#{$inuit-namespace}layout,
 %#{$inuit-namespace}layout {
     list-style: none;

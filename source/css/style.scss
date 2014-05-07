@@ -1,4 +1,4 @@
-// Main file
+// # Main file
 //
 // One File to rule them all, One File to find them,
 // One File to bring them all and in the darkness bind them
@@ -7,150 +7,76 @@
 
 
 
-// Settings
+// ## Settings
 //
 // Sass vars, etc.
-//
-// No styleguide reference.
-@import "sass/settings.defaults";
+@import "sass/01-settings/settings.defaults";
 
 
 
 
 
-// Tools
+// ## Tools
 //
 // Functions and mixins.
-//
-// No styleguide reference.
-@import "sass/tools.functions";
-@import "sass/tools.mixins";
+@import "sass/02-tools/tools.functions";
+@import "sass/02-tools/tools.mixins";
 
 
 
 
 
-// Generic
+// ## Generic
 //
 // Generic, high-level styling, like resets, etc.
-//
-// Styleguide 1
-@import "sass/generic.normalize";
-@import "sass/generic.reset";
-@import "sass/generic.shared";
+@import "sass/03-generic/generic.normalize";
+@import "sass/03-generic/generic.reset";
+@import "sass/03-generic/generic.shared";
 //@import "sass/generic.box-sizing";
 
 
 
 
 
-// Base
+// ## Base
 //
 // Unclasses HTML elements (e.g. `h2`, `ul`).
-//
-// Styleguide 2.
-
-// InuitCSS Base page
-//
-// Information about this inuitcss module https://github.com/inuitcss/base.page
-//
-// Styleguide 2.1
-@import "sass/base.page";
-
-// Base anchores
-@import "sass/base.anchors";
-
-// InuitCSS base paragraphs
-//
-// Information about this inuitcss module https://github.com/inuitcss/base.paragraphs
-//
-// Styleguide 2.4
-@import "sass/base.paragraphs";
-
-// InuitCSS base headings
-//
-// Information about this inuitcss module https://github.com/inuitcss/base.headings
-//
-// Styleguide 2.5
-@import "sass/base.headings";
-
-// InuitCSS base.lists
-//
-// Information about this inuitcss module https://github.com/inuitcss/base.lists
-//
-// Styleguide 2.7
-@import "sass/base.lists";
-
-// InuitCSS base.images
-//
-// Information about this inuitcss module https://github.com/inuitcss/base.images
-//
-// Styleguide 2.8
-@import "sass/base.images";
-
-// Base quotes
-@import "sass/base.quotes";
+@import "sass/04-base/base.page";
+@import "sass/04-base/base.anchors";
+@import "sass/04-base/base.paragraphs";
+@import "sass/04-base/base.headings";
+@import "sass/04-base/base.lists";
+@import "sass/04-base/base.images";
+@import "sass/04-base/base.quotes";
 
 
 
 
 
 
-// Objects
+// ## Objects
 //
 // Objects and abstractions.
+@import "sass/05-objects/objects.layout";
+@import "sass/05-objects/objects.helper-classes";
+
+
+
+
+
+// ## Componment
 //
-// Styleguide 3
-
-// InuitCSS objects.layout
-//
-// Information about this inuitcss module https://github.com/inuitcss/objects.layout
-//
-// Styleguide 3.1
-@import "sass/objects.layout";
-
-// Helper classes
-@import "sass/objects.helper-classes";
+// Designed UI elements .
+@import "sass/06-componment/componment.structures";
+@import "sass/06-componment/componment.types";
+@import "sass/06-componment/componment.images-shapes";
 
 
 
 
 
-// Componment
-//
-// Your designed UI elements (inuitcss includes none of these).
-//
-// Styleguide 4.
-
-// Structures
-@import "sass/componment.structures";
-
-// Types
-@import "sass/componment.types";
-
-// Image shapes
-@import "sass/componmnent.images-shapes";
-
-
-
-
-
-// Trumps
+// ## Trumps
 //
 // Overrides and helper classes.
-//
-// Styleguide 5.
-
-// InuitCSS trumps.widths
-//
-// Information about this inuitcss module https://github.com/inuitcss/trumps.widths
-//
-// Styleguide 5.1
-@import "sass/trumps.widths";
-
-// InuitCSS trumps.spacing
-//
-// Information about this inuitcss module https://github.com/inuitcss/trumps.spacing
-//
-// Styleguide 5.2
-@import "sass/trumps.spacing";
+@import "sass/07-trumps/trumps.widths";
+@import "sass/07-trumps/trumps.spacing";

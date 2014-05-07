@@ -1,11 +1,21 @@
-/*------------------------------------*\
-    #HEADINGS
-\*------------------------------------*/
-
-/**
- * Headings 1–6, with corresponding Greek-alphabet abstract classes for double-
- * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
- */
+// # Headings
+//
+// Headings 1–6, with corresponding Greek-alphabet abstract classes for double-
+// stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+//
+//    <h1>Heading 1</h1>
+//    <h2>Heading 2</h2>
+//    <h3>Heading 3</h3>
+//    <h4>Heading 4</h4>
+//    <h5>Heading 5</h5>
+//    <h6>Heading 6</h6>
+//
+//    <p class="alpha">Paragraph alpha</p>
+//    <p class="beta">Paragraph beta</p>
+//    <p class="gamma">Paragraph gamma</p>
+//    <p class="delta">Paragraph delta</p>
+//    <p class="epsilon">Paragraph epsilon</p>
+//    <p class="zeta">Paragraph zeta</p>
 h1,
 .#{$inuit-namespace}alpha,
 %#{$inuit-namespace}alpha {
@@ -46,29 +56,12 @@ h6,
 
 
 
-// Headings
+// # Responsive Headings
 //
-// Markup:
-// <h1>Heading level 1</h1>
-// <h2>Heading level 2</h2>
-// <h3>Heading level 3</h3>
-// <h4>Heading level 4</h4>
-// <h5>Heading level 5</h5>
-// <h6>Heading level 6</h6>
+// `<h1>` and </h2> can be responsive
 //
-// Styleguide 2.6
-
-
-
-
-
-// Responsive Headings
-//
-// Markup:
-// <h1 class="text-responsive">This is a responsive heading</h1>
-// <h2 class="text-responsive">This is a responsive heading</h2>
-//
-// Styleguide 2.6.1
+//     <h1 class="text-responsive">This is a responsive heading</h1>
+//     <h2 class="text-responsive">This is a responsive heading</h2>
 h1.text-responsive {
   @media screen and (max-width: $base-break-small) {
     @include inuit-font-size($heading-size-1*0.5, true);

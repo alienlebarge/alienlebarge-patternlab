@@ -1,20 +1,18 @@
-///*------------------------------------*\
-//    #MIXINS
-//\*------------------------------------*/
-
+// # Mixins
 // inuitcss has a number of default mixins that the framework, and developers
 // working with it, can make use of.
 
 
 
 
-
+// # Formed type style
+//
 // Create a fully formed type style (sizing and vertical rhythm) by passing in a
 // single value, e.g.:
 //
-// .foo {
+// `.foo {
 //     @include font-size(10px);
-// }
+// }`
 //
 @mixin inuit-font-size($inuit-font-size, $inuit-line-height: true) {
     font-size: $inuit-font-size;
@@ -30,13 +28,11 @@
 
 
 
-// Mixin border-radius
+// # Mixin border-radius
 //
 // Add prefix vendor for border-radius
 //
-// $radius - The radius for each corner
-//
-// No styleguide reference.
+//   - `$radius`: The radius for each corner
 @mixin rounded($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -49,16 +45,14 @@
 
 
 
-// Mixin shadow
+// # Mixin shadow
 //
 // A mixin for creating drop shadows
 //
-// $x     - Vertical position of the shadow
-// $y     - Horizontal position of the shadow
-// $blur  - Amount of blur
-// $color - The color
-//
-// No styleguide reference.
+//   - `$x`:     Vertical position of the shadow
+//   - `$y`:     Horizontal position of the shadow
+//   - `$blur`:  Amount of blur
+//   - `$color`: The color
  @mixin shadow($x, $y, $blur, $color) {
   -webkit-box-shadow: $x $y $blur $color;
      -moz-box-shadow: $x $y $blur $color;
@@ -70,16 +64,14 @@
 
 
 
-// Mixin Shadow inset
+// # Mixin Shadow inset
 //
 // A mixin for creating inset shadows
 //
-// $x     - Vertical position of the shadow
-// $y     - Horizontal position of the shadow
-// $blur  - Amount of blur
-// $color - The color
-//
-// No styleguide reference.
+//   - `$x`:     Vertical position of the shadow
+//   - `$y`:     Horizontal position of the shadow
+//   - `$blur`:  Amount of blur
+//   - `$color`: The color
 @mixin shadow-inset($x, $y, $blur, $color) {
   -webkit-box-shadow: inset $x $y $blur $color;
      -moz-box-shadow: inset $x $y $blur $color;
@@ -90,13 +82,11 @@
 
 
 
-// Mixin transition
+// # Mixin transition
 //
 // Add vendor prefix for transition
 //
-// $property - The kind of animation
-//
-// No styleguide reference.
+//   - `$property`: The kind of animation
 @mixin transition($property) {
   -webkit-transition: $property .2s ease;
      -moz-transition: $property .2s ease;
@@ -107,11 +97,9 @@
 
 
 
-// Mixin box-sizing
+// # Mixin box-sizing
 //
 // Box-sizing will change the box-model of the element it is applied to.
-//
-// No styleguide reference.
 @mixin box-sizing {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -122,14 +110,12 @@
 
 
 
-// Mixin linear gradient
+// # Mixin linear gradient
 //
 // A mixin for creating linear gradient
 //
-// $from - From hex color
-// $to   - To hex color
-//
-// No styleguide reference.
+//   - `$from`: From hex color
+//   - `$to`:   To hex color
 @mixin linear-gradient($from, $to) {
   /* Fallback for sad browsers */
   background-color: $to;
@@ -151,11 +137,9 @@
 
 
 
-// Mixin center block
+// # Mixin center block
 //
 // Set an element to `display: block` and center via margin.
-//
-// No styleguide reference.
 @mixin center-block {
   display: block;
   margin-left: auto;
@@ -166,11 +150,9 @@
 
 
 
-// Mixin screen reader only
+// # Mixin screen reader only
 //
 // The content can only be read by screen reader
-//
-// No styleguide reference.
 @mixin sr-only {
   position: absolute !important;
   overflow: hidden;

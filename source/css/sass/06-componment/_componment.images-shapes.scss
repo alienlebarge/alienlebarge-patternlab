@@ -1,0 +1,15 @@
+// # Image shapes
+//
+// You need an image with a special shapes ?
+// You are at the right palce.
+
+
+
+
+
+// # Circle image
+//
+//     <img class="img-circle" src="http://placekitten.com/g/200/200">
+.img-circle {
+  @include rounded(50%);
+}
