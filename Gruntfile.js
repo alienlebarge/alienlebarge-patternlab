@@ -134,10 +134,10 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "grunt-contrib-copy" task.
   grunt.loadNpmTasks('grunt-contrib-copy');
 
-  // Default task(s).
-  grunt.registerTask('default', ['sass', 'shell']);
+  // Default task(s)
+  grunt.registerTask('default', ['sass', 'shell', 'styleguide']);
 
-  // Default task(s).
+  // Dev watch task. Build the style, patternlab and styleguide
   grunt.registerTask('dev-watch', ['watch']);
 
   // Build the dist an publish it
