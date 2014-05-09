@@ -41,12 +41,13 @@
 // ## Base
 //
 // Unclasses HTML elements (e.g. `h2`, `ul`).
-@import "sass/04-base/base.page";
 @import "sass/04-base/base.anchors";
-@import "sass/04-base/base.paragraphs";
+@import "sass/04-base/base.codes";
 @import "sass/04-base/base.headings";
-@import "sass/04-base/base.lists";
 @import "sass/04-base/base.images";
+@import "sass/04-base/base.lists";
+@import "sass/04-base/base.page";
+@import "sass/04-base/base.paragraphs";
 @import "sass/04-base/base.quotes";
 
 
