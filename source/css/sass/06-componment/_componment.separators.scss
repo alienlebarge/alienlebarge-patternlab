@@ -1,0 +1,42 @@
+// # Separators
+//
+//   1. Disable `<hr>`
+//   2. Pseudo center the font `content`
+//   3. Don't strike thtough the text
+//   4. Make it works even with no centered content
+//
+// ```
+// <h1 class="separator"><span>Text in a span</span></h1>
+// <h1 class="separator"><a hre="#">Link</a></h1>
+// <h1 class="separator">Just text</h1>
+// <hr class="separator">HR</h1>
+// ```
+.separator {
+
+  overflow: hidden;
+  border: none;            // [1]
+
+  &::before {
+    content: "··············································································································································································································································································································································································································································································································";
+    letter-spacing: 0.5em;
+    font-size: 0.25em;
+    line-height: 5em;
+
+    position: absolute;    // [2]
+    left: 0;               // [2]
+
+    z-index: -1;           // [3]
+
+    overflow: visible;
+  }
+
+  > * {
+    background-color: $base-background-color;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    margin-left: -0.25em;  // [4]
+    margin-right: -0.25em; // [4]
+    z-index: 1;            // [3]
+  }
+
+}
