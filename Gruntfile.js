@@ -32,6 +32,7 @@ module.exports = function(grunt) {
 
 
 
+
     // Patternlab is build with the terminal
     shell: {
       buildPatternLab: {
@@ -77,9 +78,9 @@ module.exports = function(grunt) {
 
     // Watch things and do things when it happens.
     watch: {
-      scripts: {
+      dev: {
         files: ['source/**/*.*'],
-        tasks: ['sass:dev', 'shell'],
+        tasks: ['sass:dev', 'shell:buildPatternLab', 'styleguide:dist'],
         options: {
           spawn: false,
         },
@@ -135,6 +136,9 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['sass', 'shell']);
+
+  // Default task(s).
+  grunt.registerTask('dev-watch', ['watch']);
 
   // Build the dist an publish it
   grunt.registerTask('dist', ['sass', 'shell', 'gh-pages']);
