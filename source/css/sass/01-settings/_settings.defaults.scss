@@ -1,7 +1,4 @@
-///*------------------------------------*\
-//    #DEFAULTS
-//\*------------------------------------*/
-
+// # Defaults
 // These variables are inuitcss’ defaults; they should not be modified or
 // adjusted, you should redfine the variables in your own overrides file and
 // include it in your project before this file.
@@ -10,7 +7,7 @@
 
 
 
-// High-level base settings.
+// # High-level base settings.
 $inuit-base-font-size:          16px !default;
 $inuit-base-line-height:        24px !default;
 $inuit-base-text-color:         #333 !default;
@@ -20,7 +17,7 @@ $inuit-base-background-color:   #fff !default;
 
 
 
-// Namespace.
+// # Namespace.
 //
 // Would you like inuitcss’ classes to be prepended with a namespace? If so,
 // define it here.
@@ -30,7 +27,7 @@ $inuit-namespace:               null !default;
 
 
 
-// Headings.
+// # Headings.
 //
 // These font sizes, defined in pixels, will be converted into rems (with pixel
 // fallbacks) by inuitcss.
@@ -54,7 +51,7 @@ $inuit-base-spacing-unit:       $inuit-base-line-height;
 
 
 
-// Settings defaults
+// # Settings defaults
 //
 // Let's set the main variables
 //
@@ -64,7 +61,7 @@ $inuit-base-spacing-unit:       $inuit-base-line-height;
 
 
 
-// Fonts
+// # Fonts
 //
 // Everythings about the fonts
 //
@@ -94,11 +91,9 @@ $inuit-heading-size-6: $heading-size-6;
 
 
 
-// Colors
+// # Colors
 //
 // It's all about the colors
-//
-// No styleguide reference.
 $base-text-color:       #333;
 $base-primary-color:    #ff0000;
 $base-background-color: #fff;
@@ -110,9 +105,7 @@ $inuit-base-background-color:   $base-background-color;
 
 
 
-// Breakpoint
-//
-// No styleguide reference
+// # Breakpoint
 $base-break-small:  320px;
 $base-break-large:  1200px;
 
@@ -120,11 +113,9 @@ $base-break-large:  1200px;
 
 
 
-// Spacing
+// # Spacing
 //
 // InuitCSS settings for margin and spacing
-//
-// No styleguide reference.
 $inuit-enable-margins: true;
 $inuit-enable-paddings: true;
 
