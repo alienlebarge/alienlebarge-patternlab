@@ -51,24 +51,3 @@ h6,
 %#{$inuit-namespace}zeta {
     @include inuit-font-size($inuit-heading-size-6);
 }
-
-
-
-
-
-// # Responsive Headings
-//
-// `<h1>` and </h2> can be responsive
-//
-//     <h1 class="text-responsive">This is a responsive heading</h1>
-//     <h2 class="text-responsive">This is a responsive heading</h2>
-h1.text-responsive {
-  @media screen and (max-width: $base-break-small) {
-    @include inuit-font-size($heading-size-1*0.5, true);
-  }
-}
-h2.text-responsive {
-  @media screen and (max-width: $base-break-small) {
-    @include inuit-font-size($heading-size-2*0.7, true);
-  }
-}
