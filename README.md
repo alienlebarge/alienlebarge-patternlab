@@ -8,14 +8,9 @@ I'm currently moving [my blog](http://www.alienlebarge.ch) [to github](https://g
 - [Pattern Lab](https://github.com/pattern-lab/patternlab-php)
 - [InuitCSS pre-alpha modules](https://github.com/inuitcss)
 
-## Grunt task
 
-Build Pattern Lab static site.
-```
-$ grunt
-```
+## How to build
 
-Build and publish Pattern Lab static site via [`gh-pages`](http://pages.github.com/)
-```
-$ grunt dist
-```
+1. `git clone https://github.com/alienlebarge/alienlebarge-patternlab.git`
+2. `npm install`
+3. `grunt -help` to see what you can do.
