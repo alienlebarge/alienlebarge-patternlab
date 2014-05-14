@@ -21,18 +21,6 @@
     @if $inuit-line-height == true {
         line-height: ceil($inuit-font-size / $inuit-base-line-height) * ($inuit-base-line-height / $inuit-font-size);
     }
-
-    @if $is-responsive == true {
-      @media only screen and (max-width : #{$base-break-small}) {
-        font-size: $inuit-font-size * $font-factor-small;
-        font-size: ($inuit-font-size * $font-factor-small / $inuit-base-font-size) * 1rem;
-
-        // @if $inuit-line-height == true {
-        //     line-height: ceil($inuit-font-size * $font-factor-small / $inuit-base-line-height) * ($inuit-base-line-height / $inuit-font-size * $font-factor-small);
-        // }
-      }
-    }
-
 }
 
 
