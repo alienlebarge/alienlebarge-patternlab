@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    jekyllFolder: '../alienlebarge.github.com/',
+    config: grunt.file.readJSON('config.json'),
 
 
 
@@ -96,7 +96,7 @@ module.exports = function(grunt) {
         options: {
           force: true
         },
-        src: ["<%= jekyllFolder %>stylesheets/"]
+        src: ["<%= config.jekyllfolder %>stylesheets/"]
       }
     },
 
@@ -109,7 +109,7 @@ module.exports = function(grunt) {
         expand: true,
         cwd: 'source/css/',
         src: ['*.css', 'README.md'],
-        dest: '<%= jekyllFolder %>stylesheets/'
+        dest: '<%= config.jekyllfolder %>stylesheets/'
       }
     }
 

@@ -20,6 +20,7 @@ npm-debug.log
 # Node and Grunt things
 /node_modules/
 /.grunt/
+config.json
 
 # Styleguide folder
 /styleguide/
