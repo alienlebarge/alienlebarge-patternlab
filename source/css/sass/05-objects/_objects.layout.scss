@@ -10,10 +10,10 @@
 //
 // Predefine the variables below in order to alter and enable specific features.
 $inuit-layout-gutter:           $inuit-base-spacing-unit !default;
-$inuit-layout-gutter--small:    halve($inuit-layout-gutter) !default;
+$inuit-layout-gutter--sm:    halve($inuit-layout-gutter) !default;
 $inuit-layout-gutter--large:    double($inuit-layout-gutter) !default;
 
-$inuit-enable-layout--small:    false !default;
+$inuit-enable-layout--sm:    false !default;
 $inuit-enable-layout--large:    false !default;
 $inuit-enable-layout--flush:    false !default;
 $inuit-enable-layout--rev:      false !default;
@@ -72,19 +72,19 @@ $inuit-global-border-box: false !default;
 
 
 
-@if ($inuit-enable-layout--small == true) {
+@if ($inuit-enable-layout--sm == true) {
 
     /**
      * Layouts with small gutters.
      */
 
-    .#{$inuit-namespace}layout--small,
-    %#{$inuit-namespace}layout--small {
-        margin-left: -($inuit-layout-gutter--small);
+    .#{$inuit-namespace}layout--sm,
+    %#{$inuit-namespace}layout--sm {
+        margin-left: -($inuit-layout-gutter--sm);
 
         > .#{$inuit-namespace}layout__item,
         > %#{$inuit-namespace}layout__item {
-            padding-left: $inuit-layout-gutter--small;
+            padding-left: $inuit-layout-gutter--sm;
         }
 
     }

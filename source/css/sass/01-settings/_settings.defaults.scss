@@ -73,12 +73,19 @@ $base-line-height: 28px;
 $inuit-base-font-size:   $base-font-size;
 $inuit-base-line-height: $base-line-height;
 
-$heading-size-1: 64px;
-$heading-size-2: 40px;
-$heading-size-3: 30px;
+$heading-size-1: 40px;
+$heading-size-2: 33px;
+$heading-size-3: 27px;
 $heading-size-4: 22px;
 $heading-size-5: 16px;
 $heading-size-6: 14px;
+
+$heading-size-1--sm: 64px;
+$heading-size-2--sm: 40px;
+$heading-size-3--sm: 30px;
+$heading-size-4--sm: 22px;
+$heading-size-5--sm: 16px;
+$heading-size-6--sm: 14px;
 
 $inuit-heading-size-1: $heading-size-1;
 $inuit-heading-size-2: $heading-size-2;
@@ -86,13 +93,6 @@ $inuit-heading-size-3: $heading-size-3;
 $inuit-heading-size-4: $heading-size-4;
 $inuit-heading-size-5: $heading-size-5;
 $inuit-heading-size-6: $heading-size-6;
-
-$heading-size-1--small: 40px;
-$heading-size-2--small: 33px;
-$heading-size-3--small: 27px;
-$heading-size-4--small: 22px;
-$heading-size-5--small: 16px;
-$heading-size-6--small: 14px;
 
 
 

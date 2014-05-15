@@ -11,7 +11,7 @@ $inuit-padding:                         $inuit-base-spacing-unit !default;
 
 $inuit-enable-margins:                  false !default;
 $inuit-enable-margins--tiny:            false !default;
-$inuit-enable-margins--small:           false !default;
+$inuit-enable-margins--sm:           false !default;
 $inuit-enable-margins--large:           false !default;
 $inuit-enable-margins--huge:            false !default;
 
@@ -25,7 +25,7 @@ $inuit-enable-margins--none:            false !default;
 
 $inuit-enable-paddings:                 false !default;
 $inuit-enable-paddings--tiny:           false !default;
-$inuit-enable-paddings--small:          false !default;
+$inuit-enable-paddings--sm:          false !default;
 $inuit-enable-paddings--large:          false !default;
 $inuit-enable-paddings--huge:           false !default;
 
@@ -71,7 +71,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-margins--small == true) {
+@if ($inuit-enable-margins--sm == true) {
 
     /**
      * Add small margins.
@@ -263,7 +263,7 @@ $inuit-enable-paddings--none:           false !default;
 }
 
 
-@if ($inuit-enable-paddings--small == true) {
+@if ($inuit-enable-paddings--sm == true) {
 
     /**
      * Add small paddings.
