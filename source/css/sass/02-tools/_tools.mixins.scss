@@ -54,19 +54,19 @@
 
   @if $type == string {
     @if $min == xs {
-      @media (max-width: 767px) { @content; }       // Mobile Devices
+      @media (max-width: $base-break-xs) { @content; }       // Mobile Devices
     }
 
     @else if $min == sm {
-      @media (min-width: 768px) { @content; }       // Tablet Devices
+      @media (min-width: $base-break-xs+1) { @content; }       // Tablet Devices
     }
 
     @else if $min == md {
-      @media (min-width: 992px) { @content; }       // Desktops
+      @media (min-width: $base-break-sm) { @content; }       // Desktops
     }
 
     @else if $min == lg {
-      @media (min-width: 1200px) { @content; }      // Widescreen Desktops
+      @media (min-width: $base-break-md) { @content; }      // Widescreen Desktops
     }
 
     // Otherwise pass a warning to the compiler as to the appropriate options

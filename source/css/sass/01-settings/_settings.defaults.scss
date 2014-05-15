@@ -96,6 +96,8 @@ $heading-size-6--small: 14px;
 
 
 
+
+
 // # Colors
 //
 // It's all about the colors
@@ -110,9 +112,10 @@ $inuit-base-background-color:   $base-background-color;
 
 
 
-// # Breakpoint
-$base-break-small:  500px;
-$base-break-large:  1200px;
+// # Breakpoints
+$base-break-xs: 500px;
+$base-break-sm: 900px;
+$base-break-md: 1200px;
 
 
 
