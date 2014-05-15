@@ -31,12 +31,12 @@ $inuit-namespace:               null !default;
 //
 // These font sizes, defined in pixels, will be converted into rems (with pixel
 // fallbacks) by inuitcss.
-$inuit-heading-size-1:          36px !default;
-$inuit-heading-size-2:          30px !default;
-$inuit-heading-size-3:          24px !default;
-$inuit-heading-size-4:          20px !default;
-$inuit-heading-size-5:          16px !default;
-$inuit-heading-size-6:          14px !default;
+$heading-size-1:          36px !default;
+$heading-size-2:          30px !default;
+$heading-size-3:          24px !default;
+$heading-size-4:          20px !default;
+$heading-size-5:          16px !default;
+$heading-size-6:          14px !default;
 
 
 
@@ -73,6 +73,9 @@ $base-line-height: 28px;
 $inuit-base-font-size:   $base-font-size;
 $inuit-base-line-height: $base-line-height;
 
+// ## Headings
+//
+// Headings size is set here
 $heading-size-1: 40px;
 $heading-size-2: 33px;
 $heading-size-3: 27px;
@@ -80,19 +83,15 @@ $heading-size-4: 22px;
 $heading-size-5: 16px;
 $heading-size-6: 14px;
 
+// ### Headings mobile
+//
+// Size for extra small devices
 $heading-size-1--sm: 64px;
 $heading-size-2--sm: 40px;
 $heading-size-3--sm: 30px;
 $heading-size-4--sm: 22px;
 $heading-size-5--sm: 16px;
 $heading-size-6--sm: 14px;
-
-$inuit-heading-size-1: $heading-size-1;
-$inuit-heading-size-2: $heading-size-2;
-$inuit-heading-size-3: $heading-size-3;
-$inuit-heading-size-4: $heading-size-4;
-$inuit-heading-size-5: $heading-size-5;
-$inuit-heading-size-6: $heading-size-6;
 
 
 
