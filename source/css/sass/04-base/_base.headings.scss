@@ -23,7 +23,7 @@ h1,
   text-align: center;
 
   @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-1--sm)
+    @include inuit-font-size($heading-size-1 * $base-font-size--md-factor)
   }
 }
 
@@ -34,7 +34,7 @@ h2,
   text-align: center;
 
   @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-2--sm)
+    @include inuit-font-size($heading-size-2 * $base-font-size--md-factor)
   }
 }
 
@@ -45,7 +45,7 @@ h3,
   text-align: center;
 
   @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-3--sm)
+    @include inuit-font-size($heading-size-3 * $base-font-size--md-factor)
   }
 }
 
@@ -56,7 +56,7 @@ h4,
   text-align: center;
 
   @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-4--sm)
+    @include inuit-font-size($heading-size-4 * $base-font-size--md-factor)
   }
 }
 
@@ -67,7 +67,7 @@ h5,
   text-align: center;
 
   @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-5--sm)
+    @include inuit-font-size($heading-size-5 * $base-font-size--md-factor)
   }
 }
 
@@ -78,6 +78,6 @@ h6,
   text-align: center;
 
   @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-6--sm)
+    @include inuit-font-size($heading-size-6 * $base-font-size--md-factor)
   }
 }

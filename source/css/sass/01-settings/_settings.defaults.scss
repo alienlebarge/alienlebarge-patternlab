@@ -67,8 +67,8 @@ $inuit-base-spacing-unit:       $inuit-base-line-height;
 //
 // No styleguide reference.
 $base-font-family: 'Alegreya', Georgia, serif;
-$base-font-size:   20px;
-$base-line-height: 28px;
+$base-font-size:   16px;
+$base-line-height: 24px;
 
 $inuit-base-font-size:   $base-font-size;
 $inuit-base-line-height: $base-line-height;
@@ -76,22 +76,20 @@ $inuit-base-line-height: $base-line-height;
 // ## Headings
 //
 // Headings size is set here
-$heading-size-1: 40px;
-$heading-size-2: 33px;
-$heading-size-3: 27px;
-$heading-size-4: 22px;
+$heading-size-1: 36px;
+$heading-size-2: 30px;
+$heading-size-3: 24px;
+$heading-size-4: 20px;
 $heading-size-5: 16px;
 $heading-size-6: 14px;
 
 // ### Headings mobile
 //
 // Size for extra small devices
-$heading-size-1--sm: 64px;
-$heading-size-2--sm: 40px;
-$heading-size-3--sm: 30px;
-$heading-size-4--sm: 22px;
-$heading-size-5--sm: 16px;
-$heading-size-6--sm: 14px;
+$base-font-size--md: 20px;
+$base-font-size--md-factor: $base-font-size--md / $base-font-size;
+$base-line-height--md: 28px;
+$base-line-height--md-factor: $base-line-height--md $base-line-height;
 
 
 
