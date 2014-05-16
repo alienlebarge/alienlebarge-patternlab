@@ -7,7 +7,7 @@
 //of a document slightly larger: en.wikipedia.org/wiki/Lede_(news)
 .#{$inuit-namespace}lede,
 %#{$inuit-namespace}lede {
-    @include inuit-font-size($inuit-base-font-size * 1.125);
+    @include inuit-font-size($base-font-size * 1.125);
 }
 
 
@@ -20,9 +20,5 @@
 //of a document slightly larger: en.wikipedia.org/wiki/Lede_(news)
 .small,
 small {
-    @include inuit-font-size($heading-size-6);
-
-    @include breakpoint(sm) {
-      @include inuit-font-size($heading-size-6 * $base-font-size--md-factor);
-    }
+  @include inuit-font-size($base-font-size * 0.85)
 }
