@@ -46,5 +46,5 @@ figure {
 //
 //     <figcaption>This is the caption</figure>
 figcaption {
-  @include inuit-font-size($inuit-base-font-size * 0.8, true, false);
+  @include inuit-font-size($inuit-base-font-size * 0.8);
 }
