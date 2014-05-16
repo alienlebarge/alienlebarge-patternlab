@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
 
-    <link rel="stylesheet" href="../../css/style.css?1399120427" media="all" />
+    <link rel="stylesheet" href="../../css/style.css?1400223157" media="all" />
 
     <link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900' rel='stylesheet' type='text/css'>
 
@@ -17,14 +17,14 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1399120427" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1400223157" media="all">
 		
 
     <!-- End Pattern Lab -->
 
   </head>
   <body class="">
-<p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla sem a urna porttitor fringilla. Nulla eget justo felis. </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla sem a urna porttitor fringilla. Nulla eget justo felis. </p>
 
 <p><a href="#">Aliquam erat volutpat.</a> Mauris vulputate scelerisque feugiat. Cras a erat a diam venenatis aliquam. Sed tempus, purus ac pretium varius, risus orci sagittis purus, quis auctor libero magna nec magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros dolor, rutrum eu sollicitudin eu, commodo at leo. Suspendisse potenti. Sed eu nibh sit amet quam auctor feugiat vel et risus. Maecenas eu urna adipiscing neque dictum mollis suscipit in augue. Praesent pulvinar condimentum sagittis. Maecenas laoreet neque non eros consectetur fringilla. Donec vitae risus leo, vitae pharetra ipsum. Sed placerat eros eget elit iaculis semper. Aliquam congue blandit orci ac pretium.</p>
 
@@ -57,6 +57,22 @@
   <li>This is the last list item</li>
 </ul>
 
+<pre>
+  <code>
+    // # Lists
+    //
+    // Remove extra vertical spacing when nesting lists.
+    li {
+
+        > ul,
+        > ol {
+            margin-bottom: 0;
+        }
+
+    }
+  </code>
+</pre>
+
 	<ol>
 		<li>This is a list item in an ordered list</li>
 		<li>An ordered list is a list in which the sequence of items is important. An ordered list does not necessarily contain sequence characters.</li>
@@ -83,7 +99,7 @@
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "organisms-article-body";
-		var lineage        = [{"lineagePattern":"atoms-landscape-16x9","lineagePath":"..\/..\/patterns\/00-atoms-04-images-02-landscape-16x9\/00-atoms-04-images-02-landscape-16x9.html"},{"lineagePattern":"atoms-blockquote","lineagePath":"..\/..\/patterns\/00-atoms-02-text-04-blockquote\/00-atoms-02-text-04-blockquote.html"},{"lineagePattern":"atoms-unordered","lineagePath":"..\/..\/patterns\/00-atoms-03-lists-00-unordered\/00-atoms-03-lists-00-unordered.html"},{"lineagePattern":"atoms-ordered","lineagePath":"..\/..\/patterns\/00-atoms-03-lists-01-ordered\/00-atoms-03-lists-01-ordered.html"}];
+		var lineage        = [{"lineagePattern":"atoms-landscape-16x9","lineagePath":"..\/..\/patterns\/00-atoms-04-images-02-landscape-16x9\/00-atoms-04-images-02-landscape-16x9.html"},{"lineagePattern":"atoms-blockquote","lineagePath":"..\/..\/patterns\/00-atoms-02-text-04-blockquote\/00-atoms-02-text-04-blockquote.html"},{"lineagePattern":"atoms-unordered","lineagePath":"..\/..\/patterns\/00-atoms-03-lists-00-unordered\/00-atoms-03-lists-00-unordered.html"},{"lineagePattern":"atoms-code-blocks","lineagePath":"..\/..\/patterns\/00-atoms-02-text-10-code-blocks\/00-atoms-02-text-10-code-blocks.html"},{"lineagePattern":"atoms-ordered","lineagePath":"..\/..\/patterns\/00-atoms-03-lists-01-ordered\/00-atoms-03-lists-01-ordered.html"}];
 		var lineageR       = [{"lineagePattern":"templates-article","lineagePath":"..\/..\/patterns\/03-templates-01-article\/03-templates-01-article.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;
@@ -120,10 +136,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1399120427">
+	<script id="pl-js-polyfill-insert-1400223157">
 		(function() {
 			if (self != top) {
-				var cb = '1399120427';
+				var cb = '1400223157';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -132,10 +148,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1399120427">
+	<script id="pl-js-insert-1400223157">
 		(function() {
 			if (self != top) {
-				var cb = '1399120427';
+				var cb = '1400223157';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}

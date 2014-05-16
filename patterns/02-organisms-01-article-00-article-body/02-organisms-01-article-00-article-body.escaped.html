@@ -1,4 +1,4 @@
-&lt;p class=&quot;intro&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla sem a urna porttitor fringilla. Nulla eget justo felis. &lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla sem a urna porttitor fringilla. Nulla eget justo felis. &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;Aliquam erat volutpat.&lt;/a&gt; Mauris vulputate scelerisque feugiat. Cras a erat a diam venenatis aliquam. Sed tempus, purus ac pretium varius, risus orci sagittis purus, quis auctor libero magna nec magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eros dolor, rutrum eu sollicitudin eu, commodo at leo. Suspendisse potenti. Sed eu nibh sit amet quam auctor feugiat vel et risus. Maecenas eu urna adipiscing neque dictum mollis suscipit in augue. Praesent pulvinar condimentum sagittis. Maecenas laoreet neque non eros consectetur fringilla. Donec vitae risus leo, vitae pharetra ipsum. Sed placerat eros eget elit iaculis semper. Aliquam congue blandit orci ac pretium.&lt;/p&gt;
 
@@ -30,6 +30,22 @@
   &lt;/li&gt;
   &lt;li&gt;This is the last list item&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;pre&gt;
+  &lt;code&gt;
+    // # Lists
+    //
+    // Remove extra vertical spacing when nesting lists.
+    li {
+
+        &gt; ul,
+        &gt; ol {
+            margin-bottom: 0;
+        }
+
+    }
+  &lt;/code&gt;
+&lt;/pre&gt;
 
 	&lt;ol&gt;
 		&lt;li&gt;This is a list item in an ordered list&lt;/li&gt;
