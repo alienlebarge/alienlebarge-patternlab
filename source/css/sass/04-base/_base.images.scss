@@ -46,5 +46,37 @@ figure {
 //
 //     <figcaption>This is the caption</figure>
 figcaption {
-  @include inuit-font-size($inuit-base-font-size * 0.85);
+  @include inuit-font-size($inuit-base-font-size * 0.85, false);
+}
+
+.side-text {
+  @include breakpoint(lg) {
+    position: relative;
+  };
+}
+
+.side-text__image {
+  @include breakpoint(lg) {
+    &:after {
+      white-space: pre;
+    };
+  };
+}
+
+.side-text__element {
+  @include breakpoint(lg) {
+    position: absolute;
+    text-align: right;
+    width: $base-container-width/5;
+    left: -(($base-container-width/5) + $inuit-base-spacing-unit);
+    top: 0;
+    &:before {
+      display: block;
+      margin-bottom: $base-line-height/2;
+      color: $base-text-color;
+      content:"\2014\2014";
+      font-weight: bold;
+      line-height: 0;
+    }
+  };
 }
