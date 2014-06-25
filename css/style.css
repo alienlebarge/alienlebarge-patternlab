@@ -420,15 +420,6 @@ ins {
   border-bottom: 1px solid;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: normal;
-}
-
 h1, h2, h3, h4, h5, h6, hgroup,
 ul, ol, dl,
 blockquote, p, address,
@@ -588,6 +579,15 @@ h6,
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ff-meta-web-pro";
+}
+
 img {
   max-width: 100%;
   /* [1] */
@@ -658,7 +658,8 @@ html {
 }
 
 html {
-  font-family: "Alegreya", Georgia, serif;
+  font-family: "chaparral-pro", Georgia, serif;
+  font-weight: 100;
 }
 
 .lede {
