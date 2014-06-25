@@ -21,10 +21,6 @@ h1,
 %#{$inuit-namespace}alpha {
   @include inuit-font-size($heading-size-1);
   text-align: center;
-
-  @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-1 * $base-font-size--md-factor)
-  }
 }
 
 h2,
@@ -32,10 +28,6 @@ h2,
 %#{$inuit-namespace}beta {
   @include inuit-font-size($heading-size-2);
   text-align: center;
-
-  @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-2 * $base-font-size--md-factor)
-  }
 }
 
 h3,
@@ -43,10 +35,6 @@ h3,
 %#{$inuit-namespace}gamma {
   @include inuit-font-size($heading-size-3);
   text-align: center;
-
-  @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-3 * $base-font-size--md-factor)
-  }
 }
 
 h4,
@@ -54,10 +42,6 @@ h4,
 %#{$inuit-namespace}delta {
   @include inuit-font-size($heading-size-4);
   text-align: center;
-
-  @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-4 * $base-font-size--md-factor)
-  }
 }
 
 h5,
@@ -65,10 +49,6 @@ h5,
 %#{$inuit-namespace}epsilon {
   @include inuit-font-size($heading-size-5);
   text-align: center;
-
-  @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-5 * $base-font-size--md-factor)
-  }
 }
 
 h6,
@@ -76,10 +56,6 @@ h6,
 %#{$inuit-namespace}zeta {
   @include inuit-font-size($heading-size-6);
   text-align: center;
-
-  @include breakpoint(sm) {
-    @include inuit-font-size($heading-size-6 * $base-font-size--md-factor)
-  }
 }
 
 h1,

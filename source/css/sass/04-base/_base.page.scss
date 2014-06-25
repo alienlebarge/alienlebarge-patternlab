@@ -16,11 +16,6 @@ html {
     color: $inuit-base-text-color;
     overflow-y: scroll; /* [2] */
     min-height: 100%; /* [3] */
-
-    @include breakpoint(sm) {
-      font-size: (($base-font-size * $base-font-size--md-factor) / 16px) * 1em;
-      line-height: $base-line-height--md / $base-font-size--md;
-    }
 }
 
 
