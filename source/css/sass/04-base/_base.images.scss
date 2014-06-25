@@ -52,7 +52,7 @@ figcaption {
   &:before {
     display: block;
     color: $base-text-color;
-    content:"\2014\2014";
+    content:"\2014";
     font-weight: bold;
     line-height: 0;
     margin: $base-line-height/4 auto;
